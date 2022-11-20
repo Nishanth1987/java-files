@@ -28,26 +28,12 @@
 <distributionManagement>
     <repository>
         <id>releases</id>
-        <url>http://http://65.2.70.79:8080/content/repositories/releases</url>
+        <url>http://http://domain:8080/content/repositories/releases</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
-        <url>http://http://65.2.70.79:8080/content/repositories/snapshots</url>
+        <url>http://http://domain:8080/content/repositories/snapshots</url>
     </snapshotRepository>
 </distributionManagement>
-	
-	<repositories>
-        <repository>
-            <id>gitlab-maven</id>
-            <url>https://gitlab.nixdev.co/api/v4/groups/446/-/packages/maven</url>
-        </repository>
-
-        <repository>
-            <id>corp1</id>
-            <name>Corporate Repository</name>
-            <url>scp://repo/maven2</url>
-            <layout>default</layout>
-        </repository>
-    </repositories>
-	
+		
 </project>
